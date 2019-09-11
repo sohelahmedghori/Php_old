@@ -1,0 +1,18 @@
+body{
+	background-color: #FBFFBA;
+}
+#header{
+	height: 150px;
+	width: 100%;
+	background-color: #64CCF6;
+}
+#contant{
+	height: 700px;
+	width: 100%;
+	background-color: #D8EDFA;
+}
+#footer{
+	height: 200px;
+	width: 100%;
+	background-color: #0C97CF;
+}

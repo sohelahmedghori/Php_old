@@ -1,0 +1,37 @@
+body{
+	background-color: #E7FEFA;
+}
+#l1{
+	height: auto;
+	width: 100%;
+	min-height: 50px;
+	font-size: 30px;
+	color: #FFF;
+	background-color: #79EAEA;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+}
+#l2{
+	height: auto;
+	width: 100%;
+}
+#l3{
+	min-height: 200px;
+	height: auto;
+	width: 200px;
+	float: left;
+	border: 1px solid black;
+}
+#l4{
+	min-height: 400px;
+	height: auto;
+	width: 70%;
+	float: left;
+	border: 1px solid black;
+}
+#l5{
+	min-height: 100px;
+	width: 100%;
+	float: left;
+	border: 1px solid black;
+}

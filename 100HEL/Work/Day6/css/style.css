@@ -1,0 +1,56 @@
+body{
+	background-color: yellow;
+	margin: 0;
+	padding: 0;
+}
+#header{
+	min-height: 150px;
+	height: auto;
+	width: 100%;
+	background-color: blue;
+}
+#insideheader{
+	min-height: 150px;
+	height: auto;
+	width: 870px;
+	background-color: green;
+	margin: 0 auto;
+}
+#menu{
+	min-height: 80px;
+	height: auto;
+	width: 100%;
+	background-color: #B2FAE4;
+}
+#insidemenu{
+	min-height: 80px;
+	height: auto;
+	width: 870px;
+	background-color: #3B74EE;
+	margin: 0 auto;
+}
+#content{
+	min-height: 850px;
+	height: auto;
+	width: 100%;
+	background-color: red;
+}
+#insidecontent{
+	min-height: 850px;
+	height: auto;
+	width: 870px;
+	background-color: #F0B2FA;
+	margin: 0 auto;
+}
+#footer{
+	height: auto;
+	min-height: 250px;
+	width: 100%;
+}
+#insidefooter{
+	min-height: 250px;
+	height: auto;
+	width: 870px;
+	margin: 0 auto;
+	background-color: #ABEBC6;
+}

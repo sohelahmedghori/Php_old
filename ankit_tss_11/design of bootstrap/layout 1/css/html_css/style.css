@@ -1,0 +1,16 @@
+ .list-group-item{
+	background-color: #f2b81a !important;	
+	color: #000 !important;
+	border-color:  #000 !important;
+}
+ .list-group-item-action:hover{
+ 	background-color:#6C757D !important;
+ 	color: #fff!important;
+ 	font-weight: bold!important;
+}
+.my-image{
+	/*margin: 10px;*/
+	height: 200px;
+	background-size: 100% 100%;
+	margin: 0 30px;
+}

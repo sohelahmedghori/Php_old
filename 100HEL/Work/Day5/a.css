@@ -1,0 +1,25 @@
+body{
+	background-color: #E7FEFA;
+}
+#a1{
+	background-color: #79EAEA;
+	font-size: 30px;
+	height: auto;
+	width: 100%;
+	text-shadow: black;
+	text-align: center;
+	color: #FFF;
+}
+#a2{
+	height: auto;
+	width: 100%;
+}
+#a3{
+	height: auto;
+	min-height: 500px;
+	width: 100%;
+}
+#a4{
+	min-height: 100px;
+	width: 100%
+}

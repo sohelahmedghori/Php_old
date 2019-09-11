@@ -1,0 +1,143 @@
+<html><head>
+<title>1</title>
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+
+
+
+</head>
+
+<body style="background-color:green">
+
+	<nav class="navbar bg-danger navbar-expand-sm navbar-dark sticky-top">
+	<a class="navbar-brand" href="#">My Shopping</a>
+	<button class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+
+	<div id="myMenu" class="collapse navbar-collapse">
+	<ul class="navbar-nav">
+		<li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+		<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+		<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+		<li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+		
+	</ul>
+	</div>
+	<form class="form-inline">
+		<input type="text" class="form-control" placeholder="Search">
+		<button type="submit" class="btn btn-dark">	<i class="fa fa-search" aria-hidden="true"></i></button>
+	</form>
+	<ul class="navbar-nav">
+		<li class="nav-item">
+			<a href="#" class="nav-link">My Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+		</li>
+		<li class="nav-item">
+			<a href="login.php" class="nav-link">Login <i class="fa fa-user" aria-hidden="true"></i></a>
+		</li>
+		<li class="nav-item">
+			<a href="signup.php" class="nav-link">Signup <i class="fa fa-user" aria-hidden="true"></i></a>
+		</li>
+	</ul>
+
+
+
+</nav>
+<div class="jumbotron " style="background-color: #225544; border-radius: 0; background-image: url('image/bg.jpg'); background-size: 100% 100% ">
+	<h1 class="text-light">The Stepping Stone</h1>
+	<p class="text-light">Web Development Training Insititute in Indore Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<!-- <div class="container-fluid" style="background-color: #fe4c50;">
+	<div class="container">
+		<h2 class="text-light pt-4">Our Project</h2>
+		<p class="pb-4 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div> -->
+<div class="container-fluid mt-4">
+	<div class="row">
+		<div class="col-md-3 ">
+			<div class="list-group">
+				<a class="list-group-item list-group-item-action" href="#">Mobile</a>
+				<a class="list-group-item list-group-item-action" href="#">Home Applicance</a>
+				<a class="list-group-item list-group-item-action" href="#">Electronics</a>
+				<a class="list-group-item list-group-item-action" href="#">Fashion</a>
+			</div>
+		</div><div class="col-md-9">
+			<div class="row">
+				<div class="col-md-12">
+					<h4 class="bg-secondary text-light px-4 py-2">Lastest Product</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card mb-2">
+						<div class="card-header">
+							<span class="font-weight-bold">Sony</span>
+						</div>
+						<div class="card-body">
+
+						</div>
+						<div class="card-footer">
+							<a href="#" class="btn btn-dark btn-sm">Buy</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card mb-2">
+						<div class="card-header">
+							<span class="font-weight-bold">Sony</span>
+						</div>
+						<div class="card-body">
+
+						</div>
+						<div class="card-footer">
+							<a href="#" class="btn btn-dark btn-sm">Buy</a>
+						</div>
+					</div>
+				</div></div></div></div>
+				
+
+					<div class="container-fluid my-3">
+	<div class="row">
+		<div class="col-md-2 bg-info my-box" style="background-image: url('1.jpg');">
+
+		</div>
+		<div class="col-md-3 bg-info my-box" style="background-image: url('/var/www/html/tss_11/sachin/1.jpg');">
+		</div>
+		<div class="col-md-3 bg-info my-box" style="background-image: url('image/blog_3.jpg');">
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+	</body>
+
+
+
+
+
+</html>

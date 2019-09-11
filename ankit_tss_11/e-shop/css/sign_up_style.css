@@ -1,0 +1,50 @@
+body{
+		/*background-color: yellow;*/
+		margin: 0;
+		padding:0;
+}
+#inside-content{
+	width: 970px;
+	min-height: 600px;
+	background-color:white;
+	border:1px solid black;
+	margin: 0 auto;
+	border-radius: 25px;
+}
+#left-content{
+	width: 500px;
+	min-height: 600px;
+	height: auto;
+	float: left;
+	/*background-color: #222165; */
+}
+#left-content-logo1 img{
+	height: 150px;
+	margin-left:50px;
+	padding-top: 30px;
+}
+#right-content{
+	width: 400px;
+	height: 600px;
+	float: left;
+	/*background-color: #356136;*/
+}
+
+#right-content img{
+	width:400px;
+	height: 200px;
+	/*float: left;*/
+	padding: 180px 0px 0px 20px;
+}
+#left-content-form h2{
+	margin: 0;
+	padding: 0;
+}
+#left-content-form h2{
+	padding: 25px;
+	font-size: 30px;
+}
+#left-content-form table tr td{
+	margin: 0;
+	padding: 6px;
+}

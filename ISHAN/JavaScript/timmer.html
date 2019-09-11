@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var a = 0;
+		var x ="";
+		function start()
+		{
+			a += 1;
+			document.getElementById("st").innerHTML = a+":"+a;
+			x = setTimeout("start()",100);
+		}
+		function stop()
+		{
+			clearTimeout(x);
+		}
+	</script>
+</head>
+<body>
+<br>
+<br>
+<button onclick="start()">Start</button>
+<button onclick="stop()">Stop</button>
+<br>
+<br>
+<h1 id="st">0</h1>
+</body>
+</html>

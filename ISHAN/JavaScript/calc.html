@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<script>
+		function add()
+		{
+			var a = document.getElementById("f_num").value;
+			var b = document.getElementById("s_num").value;
+
+			var x = parseInt(a);
+			var y = parseInt(b);
+
+			var c = x+y;
+
+			alert("Addition of 2 Number is : "+c);
+		}
+		function sub()
+		{
+			var a = document.getElementById("f_num").value;
+			var b = document.getElementById("s_num").value;
+
+			var x = parseInt(a);
+			var y = parseInt(b);
+
+			var c = x-y;
+
+			alert("Subtraction of 2 Number is : "+c);
+		}
+		function mul()
+		{
+			var a = document.getElementById("f_num").value;
+			var b = document.getElementById("s_num").value;
+
+			var x = parseInt(a);
+			var y = parseInt(b);
+
+			var c = x*y;
+
+			alert("Multiplication of 2 Number is : "+c);
+		}
+		function div()
+		{
+			var a = document.getElementById("f_num").value;
+			var b = document.getElementById("s_num").value;
+
+			var x = parseInt(a);
+			var y = parseInt(b);
+
+			var c = x/y;
+
+			alert("Division of 2 Number is : "+c);
+		}
+	</script>
+</head>
+<body>
+
+First Number <input type="text" id="f_num">
+<br><br>
+Second Number <input type="text" id="s_num">
+<br><br>
+
+<button onclick="add()">+</button>
+<button onclick="sub()">-</button>
+<button onclick="mul()">*</button>
+<button onclick="div()">/</button>
+
+
+</body>
+</html>

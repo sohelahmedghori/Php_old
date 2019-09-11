@@ -1,0 +1,38 @@
+body{
+	background-color: #E7FEFA;
+}
+#h1{
+	height: auto;
+	width: 100%;
+	min-height: 50px;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	color: #FFF;
+	font-size: 30px;
+	background-color: #79EAEA;
+}
+#h2{
+	height: auto;
+
+}
+#h3{
+	width: 200px;
+	height: 100px;
+	float: left;
+	border: 1px solid black;
+}
+#h4{
+	height: auto;
+	width: 70%;
+	min-height: 500px;
+	text-align: justify;
+	float: left;
+	border: 1px solid black;
+}
+#h5{
+	width: 100%;
+	height: auto;
+	min-height: 100;
+	float: left;
+	border: 1px solid black;
+}

@@ -1,0 +1,21 @@
+#header{
+	height: 100px;
+	width: 100%;
+	background-color: #FF0000;
+}
+#content{
+	height: 600px;
+	width: 50%;
+	background-color: #FFA500;
+	float: left;
+}
+#footer{
+	height: 50px;
+	width: 50%;
+	background-color: #FFFF00;
+	color:black;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 60px 80px 120px;
+	float: right;
+}

@@ -1,0 +1,18 @@
+body{
+	background-color: #5D0A5F;
+}
+#header{
+	height: 100px;
+	width: 100%;
+	background-color: #1256AF;
+}
+#content{
+	height: 600px;
+	width: 100%;
+	background-color: #FFF;
+}
+#footer{
+	height: 250px;
+	width: 100%;
+	background-color: #1256AF;
+}

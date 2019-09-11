@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+#upper-header{
+	background-color: #000;
+	height: 30px;
+	width: 100%;
+}
+#inside-upper-header{
+	margin: 0 auto;
+	height: 30px;
+	width: 970px;
+}
+#inside-upper-header ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#inside-upper-header ul li {
+	float: left;
+}
+#inside-upper-header ul li a{
+	text-decoration: none;
+	margin: 0;
+	padding: 6px 76px;
+	display: inline-block;
+	color: #FFF;
+}
+#inside-upper-header ul li a:hover{
+	background-color: #2FDAB8;
+	color: #000;
+}
+#bottom-header{
+	height: 80px;
+	width: 100%;
+}
+#left-bottom-header{
+	height: 80px;
+	width: 35%;
+	float: left;
+}
+#center-bottom-header{
+	height: 80px;
+	width: 40%;
+	float: left;
+}
+#right-bottom-header{
+	height: 80px;
+	width: 25%;
+	float: left;
+}
+#center-bottom-header h1{
+	margin: 0;
+	padding: 20px 30px;
+}
+#menu{
+	height: 60px;
+	width: 100%;
+	background-color: #000;
+}
+#in-menu{
+	height: 60px;
+	width: 970px;
+	margin: 0 auto;
+}
+#inside-menu{
+	height: 60px;
+	width: 720px;
+	float: left;
+}
+#inside-menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#inside-menu ul li{
+	float: left;
+}
+#inside-menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0;
+	padding: 21px 23px;
+	color: #FFF;
+}
+#inside-menu ul li a:hover{
+	background-color: #2FDAB8;
+	color: #000;
+}
+#right-menu{
+	height: 60px;
+	width: 250px;
+	float: left;
+}
+#right-menu a img{
+	margin: 0;
+	height: 60px;
+}
+#content{
+	height: auto;
+	min-height: 600px;
+	width: 100%;
+}
+#img1-content img{
+	height: 450px;
+	width: 100%;
+}
+#content2{
+	height: 375px;
+	width: 100%;
+}
+#content2-1{
+	width: 50%;
+	height: 250px;
+	float: left;
+}
+#content2-1 a img{
+	margin: 50px 10px 50px 0px;
+	padding: 0;
+	height: 250px;
+	width: 350px;
+	float: right;
+}
+#content2-2{
+	width: 50%;
+	height: 250px;
+	float: left;
+}
+#content2-2 a img{
+	margin: 50px 0px 50px 10px;
+	padding: 0;
+	height: 250px;
+	width: 350px;
+}
+#content3{
+	min-height: 400px;
+	height: auto;
+	width: 100%;
+}
+#content3-1{
+	height: 400px;
+	width: 50%;
+	float: left;
+}
+#content3-1 a img{
+	height: 400px;
+	width: 100%;
+}
+#content3-2{
+	height: 400px;
+	width: 50%;
+	float: left;
+	background-color: #B6FCEA;
+}
+#content3-2 a img{
+	height: 300px;
+	width: 80%;
+	float: left;
+	margin: 50px 0px 0px 0px;
+	padding: 0;
+}
+#footer{
+	height: 200px;
+	width: 100%;
+	background-color: #000;
+}

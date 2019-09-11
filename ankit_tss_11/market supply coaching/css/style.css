@@ -1,0 +1,164 @@
+body{
+	background-color: #DBDBDB;
+	margin: 0;
+	padding:0;
+	font-family: Helvetica;
+}
+#footer{
+	background-color: #000;
+	height: 200px;
+	width: 100%;
+}
+#header{
+	background-color:#191919; 
+	width:100%;
+	height: 100px;
+}
+#inside-header{
+	width: 970px;
+	height: 100px;
+	margin: 0 auto;
+}
+#inside-header-top-left{
+	background-color: blue;
+	
+}
+#left-header{
+	/*background-color: green;*/
+	height: 100px;
+	width: 200px;
+	float: left;
+}
+#left-header h2{
+	color:#EA0929;
+	font-size: 25px;
+	padding-top: 12px;
+	margin-left: 14px;
+}
+#left-header h2 span{
+	color: #fff;
+}
+#right-header{
+	/*background-color: yellow;*/
+	width: 770px;
+	height: 100px;
+	float: right;
+}
+#right-header-top{
+	/*background-color: green;*/
+	height: 35px;
+	width: 770px;	
+}
+#right-header-top ul{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+
+}
+#right-header-top ul li{
+	color: #fff;
+	float: right;
+}
+#right-header-top ul li a{
+	display:inline-block;
+	color: #fff;
+	padding:8px 10px;
+	text-decoration:none; 
+	/*background-color: red;*/
+}
+#right-header-top ul li a:hover{
+	color:yellow;
+	background-color: #789456;
+}
+#menu{
+	background-color: #EA0929;
+	width: 100%;
+	height:40px; 
+}
+#inside-menu{
+	/*background-color: brown;*/
+	height: 40px;
+	width: 970px;
+	margin:0 auto;
+}
+#inside-menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#inside-menu ul li a{
+	display:inline-block;
+	color: #fff;
+	text-decoration: none;
+	float: right;
+	padding:8px 44px 8px 50px;
+	font-size: 20px;
+	/*background-color: blue;*/
+}
+#inside-menu ul li a:hover{
+	background-color: yellow;
+	color: #000;
+}
+#content{
+	width: 100%;
+	min-height: 800px;
+	height: auto;
+	/*background-color: blue;*/
+}
+#inside-content{
+	/*background-color: #654789;*/
+	width: 970px;
+	min-height: 800px;
+	height: auto;
+	margin: 0 auto;
+}
+#left-content{
+	background-color: #fff;
+	width: 200px;
+	height: 800px;
+	float: left;
+}
+#left-content ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#left-content ul li a{
+	/*color:#FFFFFF;*/
+	text-decoration: none;
+	border-bottom: 1px solid #352274;
+	padding: 10px 20px;
+	/*border-spacing: 0;*/
+	display:/*inline-*/block;
+}
+#left-content ul li a:hover{
+	background-color: yellow;
+	color: #000000;
+}
+#right-content{
+	/*background-color: brown;*/
+	width: 770px;
+	height: auto;
+	min-height: 800px;
+	float: left;
+	overflow: auto;
+}
+#right-content-top{
+	background-color: black;
+	min-height: 380px;
+	height: auto;
+	width: 745px;
+	margin: 10px 0 30px 25px;
+}
+#right-content-bottom{
+	background-color: #FFF;
+	min-height: 370px;
+	height: auto;
+	width: 745px;
+	margin:10px 0 45px 25px; 
+	/*padding: 10px 0 40px 25px;*/
+}
+h2{
+	border-bottom: 2px solid black;
+	padding-bottom:5px;
+}
